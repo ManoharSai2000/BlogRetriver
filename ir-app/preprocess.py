@@ -6,7 +6,7 @@ from gensim.parsing.preprocessing import STOPWORDS
 import streamlit as st
 import nltk
 
-nltk.download('stopwords')
+nltk.download('punkt')
 
 @st.cache
 def remove_specials(documents):
