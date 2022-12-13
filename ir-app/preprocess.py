@@ -4,7 +4,9 @@ from nltk.tokenize import word_tokenize
 import regex as re
 from gensim.parsing.preprocessing import STOPWORDS
 import streamlit as st
+import nltk
 
+nltk.download()
 
 @st.cache
 def remove_specials(documents):
