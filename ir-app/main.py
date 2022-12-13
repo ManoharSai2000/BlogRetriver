@@ -1,10 +1,8 @@
 import os
 import numpy as np
 import streamlit as st
-#from streamlit_option_menu import option_menu
 import pandas as pd
-from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
-from rank_bm25 import *
+from rank_bm25 import BM25Okapi
 from preprocess import preprocess
 
 st.set_page_config(page_title="Rithvik IR APP", page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
