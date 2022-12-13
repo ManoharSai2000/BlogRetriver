@@ -22,7 +22,7 @@ st.markdown(
 
 @st.cache
 def process_documents():
-    path = "data/data.csv"
+    path = "ir-app/data/data.csv"
     df = pd.read_csv(path)
     titles = df["title"].values.tolist()
     documents = df["content"].values.tolist()
