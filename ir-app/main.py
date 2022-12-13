@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 import pandas as pd
 from rank_bm25 import BM25Okapi
-from preprocess import preprocess
+from .preprocess import preprocess
 
 st.set_page_config(page_title="Rithvik IR APP", page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
 
